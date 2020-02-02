@@ -4,30 +4,30 @@ export default function FeaturedContent(props) {
   return (
     <div className="fc-wrapper">
       <div className="fc">
-        <a className="item" href="/">
+        <a className="item" href="/libraries">
           <h3>Know your Libraries</h3>
           <p>How to use arrays, stacks, queues, heaps, etc.</p>
         </a>
-        <div className="item">
+        <a className="item">
           <h3>Top Interview Questions</h3>
           <p>Top questions to study for your interview</p>
-        </div>
-        <div className="item">
+        </a>
+        <a className="item">
           <h3>Leetcode Patterns</h3>
           <p>Learn to effectively use patterns to find the best algorithm</p>
-        </div>
-        <div className="item">
+        </a>
+        <a className="item">
           <h3>Trees</h3>
           <p>Inorder, preorder, postorder recursively and iteratively</p>
-        </div>
-        <div className="item">
+        </a>
+        <a className="item">
           <h3>Heaps</h3>
           <p>How and when to use heaps in problems</p>
-        </div>
-        <div className="item">
+        </a>
+        <a className="item">
           <h3>Graphs</h3>
           <p>BFS and DFS techniques for common graph problems</p>
-        </div>
+        </a>
       </div>
     <style jsx>{`
         .fc-wrapper {

@@ -9,7 +9,7 @@ export default function Blog() {
     <Layout>
       <Header/>
       <FeaturedContent/>
-      <Footer/> 
+      <Footer/>
     </Layout>
   );
 }
