@@ -34,9 +34,15 @@ export default function Libraries() {
 
               # Check if value in array
               value in arr              # O(n)
-
-
-
+              `}</SyntaxHighlighter>
+          </div>
+          <div className="article">
+            <h1>Strings</h1>
+              <p>
+              </p>
+              <SyntaxHighlighter language="python">{`
+              # Instantiating a list.
+              
               `}</SyntaxHighlighter>
           </div>
         </div>
