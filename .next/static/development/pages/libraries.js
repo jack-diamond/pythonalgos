@@ -22,16 +22,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function Layout(props) {
   return __jsx("div", {
-    className: "jsx-3705599842",
+    className: "jsx-3156212562",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3705599842",
+    id: "3156212562",
     __self: this
-  }, "div.jsx-3705599842{width:100%;height:60px;background:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNrZGlhbW9uZC9EZXNrdG9wL3B5YWxnb3MvY29tcG9uZW50cy9Gb290ZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS2tCLEFBR3NCLFdBQ0MsWUFDSyxpQkFDbkIiLCJmaWxlIjoiL1VzZXJzL2phY2tkaWFtb25kL0Rlc2t0b3AvcHlhbGdvcy9jb21wb25lbnRzL0Zvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIExheW91dChwcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIGRpdiB7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgaGVpZ2h0OiA2MHB4O1xuICAgICAgICAgIGJhY2tncm91bmQ6IHdoaXRlO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gIClcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/jackdiamond/Desktop/pyalgos/components/Footer.js */"));
+  }, "div.jsx-3156212562{position:relative;left:0;bottom:0;right:0;width:100%;height:60px;background:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNrZGlhbW9uZC9EZXNrdG9wL3B5YWxnb3MvY29tcG9uZW50cy9Gb290ZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS2tCLEFBRzZCLGtCQUNaLE9BQ0UsU0FDRCxRQUNJLFdBQ0MsWUFDSyxpQkFDbkIiLCJmaWxlIjoiL1VzZXJzL2phY2tkaWFtb25kL0Rlc2t0b3AvcHlhbGdvcy9jb21wb25lbnRzL0Zvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIExheW91dChwcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIGRpdiB7XG4gICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgIGxlZnQ6MDtcbiAgICAgICAgICBib3R0b206MDtcbiAgICAgICAgICByaWdodDowO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIGhlaWdodDogNjBweDtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApXG59XG4iXX0= */\n/*@ sourceURL=/Users/jackdiamond/Desktop/pyalgos/components/Footer.js */"));
 }
 
 /***/ }),
@@ -54995,28 +54995,28 @@ function Libraries() {
     },
     __self: this
   }), __jsx("div", {
-    className: "jsx-734484965" + " " + "article-wrapper",
+    className: "jsx-3353966046" + " " + "article-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-734484965" + " " + "article",
+    className: "jsx-3353966046" + " " + "article",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
   }, __jsx("h1", {
-    className: "jsx-734484965",
+    className: "jsx-3353966046",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
   }, "Arrays"), __jsx("p", {
-    className: "jsx-734484965",
+    className: "jsx-3353966046",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -55029,16 +55029,44 @@ function Libraries() {
       lineNumber: 20
     },
     __self: this
-  }, "\n              # Instantiating a list.\n              [1, 2, 3, 4]\n              [1] + [0] * 4\n              list(range(100))\n\n              # Basic operations\n              len(arr)\n              arr.append(1)             # O(1)\n              arr.remove(2)             # O(n)\n              arr.insert(3, 8)          # O(n)\n\n              # Instantiate a 2-D array\n              [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n\n              # Check if value in array\n              value in arr              # O(n)\n\n\n\n              "))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "\n              # Instantiating a list.\n              [1, 2, 3, 4]\n              [1] + [0] * 4\n              list(range(100))\n\n              # Basic operations\n              len(arr)\n              arr.append(1)             # O(1)\n              arr.remove(2)             # O(n)\n              arr.insert(3, 8)          # O(n)\n\n              # Instantiate a 2-D array\n              [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n\n              # Check if value in array\n              value in arr              # O(n)\n              ")), __jsx("div", {
+    className: "jsx-3353966046" + " " + "article",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("h1", {
+    className: "jsx-3353966046",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Strings"), __jsx("p", {
+    className: "jsx-3353966046",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }), __jsx(react_syntax_highlighter__WEBPACK_IMPORTED_MODULE_6__["Prism"], {
+    language: "python",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
-  }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "734484965",
+  }, "\n              # Instantiating a list.\n              oh no\n              "))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
     __self: this
-  }, ".article-wrapper{background:#F9F9F9;height:80vh;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;font-family:Arial;}.article{background:white;max-width:800px;text-align:left;margin:20px 0;}.article h1{margin:10px 20px;}.article p{margin:20px 20px;line-height:1.5;}code{white-space:pre-wrap;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNrZGlhbW9uZC9EZXNrdG9wL3B5YWxnb3MvcGFnZXMvbGlicmFyaWVzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJDeUIsQUFHOEIsQUFRRixBQU9BLEFBSUEsQUFLSSxpQkFmTCxBQU9sQixBQUlrQixFQW5CSixFQXdCZCxVQXZCZSxFQVFHLEFBV2xCLGdCQVZnQixjQUNoQiwwQ0FUeUIsbUdBQ0wsa0JBQ3BCIiwiZmlsZSI6Ii9Vc2Vycy9qYWNrZGlhbW9uZC9EZXNrdG9wL3B5YWxnb3MvcGFnZXMvbGlicmFyaWVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWRlciBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRlcic7XG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0JztcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9Gb290ZXInO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuaW1wb3J0IHsgUHJpc20gYXMgU3ludGF4SGlnaGxpZ2h0ZXIgfSBmcm9tICdyZWFjdC1zeW50YXgtaGlnaGxpZ2h0ZXInO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBMaWJyYXJpZXMoKSB7XG4gIHJldHVybiAoXG4gICAgPExheW91dD5cbiAgICAgIDxIZWFkZXIvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImFydGljbGUtd3JhcHBlclwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYXJ0aWNsZVwiPlxuICAgICAgICAgICAgPGgxPkFycmF5czwvaDE+XG4gICAgICAgICAgICAgIDxwPlRoZSBtYWluIGZ1bmN0aW9ucyB3aXRoIGFycmF5cyBpbiBweXRob24gaGF2ZSB0byBkbyB3aXRoXG4gICAgICAgICAgICAgIGFjY2Vzc2luZywgc2xpY2luZywgcmVtb3ZpbmcgZWxlbWVudHMsIGxpc3QgY29tcHJlaGVuc2lvbiwgZXRjLlxuICAgICAgICAgICAgICBUaGVzZSBhcmUgbXVzdCBrbm93IG9wZXJhdGlvbnMgYnV0IHlvdSBzaG91bGQgYmUgY2FyZWZ1bCB0byBub3RpY2VcbiAgICAgICAgICAgICAgdGhlIHRpbWUgY29tcGxleGl0eSBvZiBlYWNoIG9wZXJhdGlvbiBiZWZvcmUgaW5jb3Jwb3JhdGluZyBpdCBpbnRvXG4gICAgICAgICAgICAgIHlvdXIgYWxnb3JpdGhtLlxuICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgIDxTeW50YXhIaWdobGlnaHRlciBsYW5ndWFnZT1cInB5dGhvblwiPntgXG4gICAgICAgICAgICAgICMgSW5zdGFudGlhdGluZyBhIGxpc3QuXG4gICAgICAgICAgICAgIFsxLCAyLCAzLCA0XVxuICAgICAgICAgICAgICBbMV0gKyBbMF0gKiA0XG4gICAgICAgICAgICAgIGxpc3QocmFuZ2UoMTAwKSlcblxuICAgICAgICAgICAgICAjIEJhc2ljIG9wZXJhdGlvbnNcbiAgICAgICAgICAgICAgbGVuKGFycilcbiAgICAgICAgICAgICAgYXJyLmFwcGVuZCgxKSAgICAgICAgICAgICAjIE8oMSlcbiAgICAgICAgICAgICAgYXJyLnJlbW92ZSgyKSAgICAgICAgICAgICAjIE8obilcbiAgICAgICAgICAgICAgYXJyLmluc2VydCgzLCA4KSAgICAgICAgICAjIE8obilcblxuICAgICAgICAgICAgICAjIEluc3RhbnRpYXRlIGEgMi1EIGFycmF5XG4gICAgICAgICAgICAgIFtbMSwgMiwgM10sIFs0LCA1LCA2XSwgWzcsIDgsIDldXVxuXG4gICAgICAgICAgICAgICMgQ2hlY2sgaWYgdmFsdWUgaW4gYXJyYXlcbiAgICAgICAgICAgICAgdmFsdWUgaW4gYXJyICAgICAgICAgICAgICAjIE8obilcblxuXG5cbiAgICAgICAgICAgICAgYH08L1N5bnRheEhpZ2hsaWdodGVyPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDxGb290ZXIvPlxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgLmFydGljbGUtd3JhcHBlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogI0Y5RjlGOTtcbiAgICAgICAgICBoZWlnaHQ6IDgwdmg7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICBmb250LWZhbWlseTogQXJpYWw7XG4gICAgICAgIH1cblxuICAgICAgICAuYXJ0aWNsZSB7XG4gICAgICAgICAgYmFja2dyb3VuZDogd2hpdGU7XG4gICAgICAgICAgbWF4LXdpZHRoOiA4MDBweDtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICAgICAgICAgIG1hcmdpbjogMjBweCAwO1xuICAgICAgICB9XG5cbiAgICAgICAgLmFydGljbGUgaDEge1xuICAgICAgICAgIG1hcmdpbjogMTBweCAyMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLmFydGljbGUgcCB7XG4gICAgICAgICAgbWFyZ2luOiAyMHB4IDIwcHg7XG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgICAgICAgfVxuXG4gICAgICAgIGNvZGUge1xuICAgICAgICAgIHdoaXRlLXNwYWNlOiBwcmUtd3JhcDtcbiAgICAgICAgfVxuXG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9MYXlvdXQ+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/jackdiamond/Desktop/pyalgos/pages/libraries.js */"));
+  }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3353966046",
+    __self: this
+  }, ".article-wrapper{background:#F9F9F9;height:80vh;margin-top:100px;padding-bottom:100px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:Arial;}.article{background:white;width:800px;max-width:800px;text-align:left;margin:10px 0;}.article h1{margin:10px 20px;}.article p{margin:20px 20px;line-height:1.5;}code{white-space:pre-wrap;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNrZGlhbW9uZC9EZXNrdG9wL3B5YWxnb3MvcGFnZXMvbGlicmFyaWVzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlEeUIsQUFHOEIsQUFhRixBQVFBLEFBSUEsQUFLSSxpQkFoQlQsQUFRZCxBQUlrQixFQXpCSixFQThCZCxRQWhCa0IsRUFiQyxFQXlCbkIsWUFYa0IsR0FiSyxhQWNQLFFBWkQsTUFhZixvRUFabUIsK0RBQ00sbUdBQ0osNkZBQ0Qsa0JBQ3BCIiwiZmlsZSI6Ii9Vc2Vycy9qYWNrZGlhbW9uZC9EZXNrdG9wL3B5YWxnb3MvcGFnZXMvbGlicmFyaWVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWRlciBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRlcic7XG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0JztcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9Gb290ZXInO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuaW1wb3J0IHsgUHJpc20gYXMgU3ludGF4SGlnaGxpZ2h0ZXIgfSBmcm9tICdyZWFjdC1zeW50YXgtaGlnaGxpZ2h0ZXInO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBMaWJyYXJpZXMoKSB7XG4gIHJldHVybiAoXG4gICAgPExheW91dD5cbiAgICAgIDxIZWFkZXIvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImFydGljbGUtd3JhcHBlclwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYXJ0aWNsZVwiPlxuICAgICAgICAgICAgPGgxPkFycmF5czwvaDE+XG4gICAgICAgICAgICAgIDxwPlRoZSBtYWluIGZ1bmN0aW9ucyB3aXRoIGFycmF5cyBpbiBweXRob24gaGF2ZSB0byBkbyB3aXRoXG4gICAgICAgICAgICAgIGFjY2Vzc2luZywgc2xpY2luZywgcmVtb3ZpbmcgZWxlbWVudHMsIGxpc3QgY29tcHJlaGVuc2lvbiwgZXRjLlxuICAgICAgICAgICAgICBUaGVzZSBhcmUgbXVzdCBrbm93IG9wZXJhdGlvbnMgYnV0IHlvdSBzaG91bGQgYmUgY2FyZWZ1bCB0byBub3RpY2VcbiAgICAgICAgICAgICAgdGhlIHRpbWUgY29tcGxleGl0eSBvZiBlYWNoIG9wZXJhdGlvbiBiZWZvcmUgaW5jb3Jwb3JhdGluZyBpdCBpbnRvXG4gICAgICAgICAgICAgIHlvdXIgYWxnb3JpdGhtLlxuICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgIDxTeW50YXhIaWdobGlnaHRlciBsYW5ndWFnZT1cInB5dGhvblwiPntgXG4gICAgICAgICAgICAgICMgSW5zdGFudGlhdGluZyBhIGxpc3QuXG4gICAgICAgICAgICAgIFsxLCAyLCAzLCA0XVxuICAgICAgICAgICAgICBbMV0gKyBbMF0gKiA0XG4gICAgICAgICAgICAgIGxpc3QocmFuZ2UoMTAwKSlcblxuICAgICAgICAgICAgICAjIEJhc2ljIG9wZXJhdGlvbnNcbiAgICAgICAgICAgICAgbGVuKGFycilcbiAgICAgICAgICAgICAgYXJyLmFwcGVuZCgxKSAgICAgICAgICAgICAjIE8oMSlcbiAgICAgICAgICAgICAgYXJyLnJlbW92ZSgyKSAgICAgICAgICAgICAjIE8obilcbiAgICAgICAgICAgICAgYXJyLmluc2VydCgzLCA4KSAgICAgICAgICAjIE8obilcblxuICAgICAgICAgICAgICAjIEluc3RhbnRpYXRlIGEgMi1EIGFycmF5XG4gICAgICAgICAgICAgIFtbMSwgMiwgM10sIFs0LCA1LCA2XSwgWzcsIDgsIDldXVxuXG4gICAgICAgICAgICAgICMgQ2hlY2sgaWYgdmFsdWUgaW4gYXJyYXlcbiAgICAgICAgICAgICAgdmFsdWUgaW4gYXJyICAgICAgICAgICAgICAjIE8obilcbiAgICAgICAgICAgICAgYH08L1N5bnRheEhpZ2hsaWdodGVyPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYXJ0aWNsZVwiPlxuICAgICAgICAgICAgPGgxPlN0cmluZ3M8L2gxPlxuICAgICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8U3ludGF4SGlnaGxpZ2h0ZXIgbGFuZ3VhZ2U9XCJweXRob25cIj57YFxuICAgICAgICAgICAgICAjIEluc3RhbnRpYXRpbmcgYSBsaXN0LlxuICAgICAgICAgICAgICBvaCBub1xuICAgICAgICAgICAgICBgfTwvU3ludGF4SGlnaGxpZ2h0ZXI+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPEZvb3Rlci8+XG4gICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAuYXJ0aWNsZS13cmFwcGVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiAjRjlGOUY5O1xuICAgICAgICAgIGhlaWdodDogODB2aDtcbiAgICAgICAgICBtYXJnaW4tdG9wOiAxMDBweDtcbiAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMTAwcHg7XG5cbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZmxvdzogY29sdW1uO1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IEFyaWFsO1xuICAgICAgICB9XG5cbiAgICAgICAgLmFydGljbGUge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHdoaXRlO1xuICAgICAgICAgIHdpZHRoOiA4MDBweDtcbiAgICAgICAgICBtYXgtd2lkdGg6IDgwMHB4O1xuICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICAgICAgbWFyZ2luOiAxMHB4IDA7XG4gICAgICAgIH1cblxuICAgICAgICAuYXJ0aWNsZSBoMSB7XG4gICAgICAgICAgbWFyZ2luOiAxMHB4IDIwcHg7XG4gICAgICAgIH1cblxuICAgICAgICAuYXJ0aWNsZSBwIHtcbiAgICAgICAgICBtYXJnaW46IDIwcHggMjBweDtcbiAgICAgICAgICBsaW5lLWhlaWdodDogMS41O1xuICAgICAgICB9XG5cbiAgICAgICAgY29kZSB7XG4gICAgICAgICAgd2hpdGUtc3BhY2U6IHByZS13cmFwO1xuICAgICAgICB9XG5cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L0xheW91dD5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/jackdiamond/Desktop/pyalgos/pages/libraries.js */"));
 }
 
 /***/ }),

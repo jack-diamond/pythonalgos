@@ -51,16 +51,22 @@ export default function Libraries() {
         .article-wrapper {
           background: #F9F9F9;
           height: 80vh;
+          margin-top: 100px;
+          padding-bottom: 100px;
+
           display: flex;
+          flex-flow: column;
           justify-content: center;
+          align-items: center;
           font-family: Arial;
         }
 
         .article {
           background: white;
+          width: 800px;
           max-width: 800px;
           text-align: left;
-          margin: 20px 0;
+          margin: 10px 0;
         }
 
         .article h1 {
