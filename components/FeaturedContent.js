@@ -8,7 +8,7 @@ export default function FeaturedContent(props) {
           <h3>Know your Libraries</h3>
           <p>How to use arrays, stacks, queues, heaps, etc.</p>
         </a>
-        <a className="item">
+        <a className="item" href="/problems">
           <h3>Top Interview Questions</h3>
           <p>Top questions to study for your interview</p>
         </a>

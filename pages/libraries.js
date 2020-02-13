@@ -1,13 +1,9 @@
-import Header from '../components/Header';
 import Layout from '../components/Layout';
-import Footer from '../components/Footer';
-import Link from 'next/link'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
 export default function Libraries() {
   return (
     <Layout>
-      <Header/>
         <div className="article-wrapper">
           <div className="article">
             <h1>Arrays</h1>
@@ -31,6 +27,7 @@ export default function Libraries() {
 
               # Instantiate a 2-D array
               [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+              [[0 for _ in range(col)] for _ in range(row)]
 
               # Check if value in array
               value in arr              # O(n)
@@ -41,32 +38,43 @@ export default function Libraries() {
               <p>
               </p>
               <SyntaxHighlighter language="python">{`
-              # Instantiating a list.
-              oh no
+              # Basic string operations.
+              s = "hello"
+              s[2] = "l"
+              len(s) = 5
+              s.startswith("he") = True
+              s.endswith("li") = False
+              ch in s                     # O(n)
+              s[1:4] = "ell"              # O(n)
+              s = "he" + "llo"            # O(n)
+
+              # Formatting
+
               `}</SyntaxHighlighter>
           </div>
         </div>
-      <Footer/>
       <style jsx global>{`
         .article-wrapper {
-          background: #F9F9F9;
-          height: 80vh;
-          margin-top: 100px;
-          padding-bottom: 100px;
-
           display: flex;
           flex-flow: column;
           justify-content: center;
           align-items: center;
           font-family: Arial;
+
+          background: transparent;
+          padding-top: 10px;
+          padding-bottom: 10px;
         }
 
         .article {
-          background: white;
           width: 800px;
           max-width: 800px;
           text-align: left;
           margin: 10px 0;
+
+          background: white;
+          box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
         }
 
         .article h1 {
