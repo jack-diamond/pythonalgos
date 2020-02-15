@@ -5,16 +5,29 @@ import Link from 'next/link';
 const Problems = props => {
   return (
     <Layout>
-    <h1>Blind 75</h1>
-    <ul>
-      {props.problems.map(problem => (
-        <li key={problem.name}>
-          <Link href="/link"  as={`${problem.link}`}>
-            <a target="_blank">{problem.name}</a>
-          </Link>
-        </li>
+      <div>
+      {props.problems.map(({name, problems}) => (
+        <>
+        <h1>{name}</h1>
+        <ul>
+          {problems.map(({name, problems}) => (
+            <>
+            <li>{name}</li>
+            <ul>
+              {problems.map(({name, link}) =>(
+                <li key={name}>
+                  <Link href="/link"  as={`${link}`}>
+                    <a target="_blank">{name}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            </>
+          ))}
+        </ul>
+        </>
       ))}
-    </ul>
+      </div>
     </Layout>
   );
 }
@@ -25,7 +38,7 @@ Problems.getInitialProps = async function() {
     console.log(data);
     console.log(`Show data fetched. Count: ${data.length}`);
     return {
-      problems: data
+      problems: data.map(problems => problems)
     };
   };
   
