@@ -16,7 +16,7 @@ const Problems = props => {
             <li>{name}</li>
             <ul>
               {problems.map(({name, link}) =>(
-                <li key={name}>
+                <li>
                   <Link href="/link"  as={`${link}`}>
                     <a target="_blank">{name}</a>
                   </Link>
@@ -63,7 +63,7 @@ const Problems = props => {
 }
 
 Problems.getInitialProps = async function() {
-    const res = await fetch('http://localhost:8000/problems/');
+    const res = await fetch('https://serene-dawn-66428.herokuapp.com/problems');
     const data = await res.json();
     console.log(data);
     console.log(`Show data fetched. Count: ${data.length}`);
