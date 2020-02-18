@@ -12,22 +12,22 @@ export default function FeaturedContent(props) {
           <h3>Top Interview Questions</h3>
           <p>Top questions to study for your interview</p>
         </a>
-        <a className="item">
+        <div className="coming-soon">
           <h3>Leetcode Patterns</h3>
           <p>Learn to effectively use patterns to find the best algorithm</p>
-        </a>
-        <a className="item">
+        </div>
+        <div className="coming-soon">
           <h3>Trees</h3>
           <p>Inorder, preorder, postorder recursively and iteratively</p>
-        </a>
-        <a className="item">
+        </div>
+        <div className="coming-soon">
           <h3>Heaps</h3>
           <p>How and when to use heaps in problems</p>
-        </a>
-        <a className="item">
+        </div>
+        <div className="coming-soon">
           <h3>Graphs</h3>
           <p>BFS and DFS techniques for common graph problems</p>
-        </a>
+        </div>
       </div>
     <style jsx>{`
         .fc-wrapper {
@@ -64,6 +64,12 @@ export default function FeaturedContent(props) {
           align-content: flex-start;
         }
 
+        .item:hover {
+          text-decoration:none;
+          box-shadow: rgba(0, 0, 0, 0.12) 0 20px 40px;
+          z-index: 1;
+        }
+
         .item h3 {
           font-family: Arial;
           text-align: left;
@@ -73,6 +79,39 @@ export default function FeaturedContent(props) {
         }
 
         .item p {
+          font-family: Arial;
+          text-align: left;
+          padding-left: 10px;
+          color: rgb(102, 102, 102);
+          margin: 5px 10px 0 10px;
+        }
+
+        .coming-soon {
+          height: 150px;
+          width: 300px;
+          margin: 0 10px;
+          margin-top: 20px;
+
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          text-decoration: none;
+          background: gray;
+          cursor: not-allowed;
+
+          display: flex;
+          flex-direction: column;
+          align-content: flex-start;
+        }
+
+        .coming-soon h3 {
+          font-family: Arial;
+          text-align: left;
+          padding-left: 10px;
+          color: #000000;
+          margin: 30px 10px 0 10px;
+        }
+
+        .coming-soon p {
           font-family: Arial;
           text-align: left;
           padding-left: 10px;
